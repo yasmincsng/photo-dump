@@ -1,116 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome to my Photo Gallery</title>
-  <link rel="stylesheet" href="style6.css" />
-  <!-- Add Font Awesome for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="style6.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+  </style>
 </head>
 <body>
-  <!-- Navigation Bar -->
   <nav class="navbar">
+    <h2><i class="fas fa-camera"></i> Navigate My Gallery</h2>
     <ul>
-        <li><a href="https://yasmincsng.github.io/website/"><i class="fas fa-home"></i> Home</a></li>
-        <li><a href="https://yasmincsng.github.io/bio/"><i class="fas fa-user"></i> Biography</a></li>
-        <li><a href="https://yasmincsng.github.io/skills/"><i class="fas fa-tools"></i> Skills</a></li>
-        <li><a href="https://yasmincsng.github.io/resume/"><i class="fas fa-file-alt"></i> Resume</a></li>
-        <li><a href="https://yasmincsng.github.io/beats/"><i class="fas fa-music"></i> My Beats</a></li>
-        <li><a href="https://yasmincsng.github.io/film/"><i class="fas fa-video"></i> My Film</a></li>
-        <li><a href="https://yasmincsng.github.io/photo-dump/"><i class="fas fa-images"></i> Photo Gallery</a></li>
+      <li><a href="../landing page/index.html"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="../bio/index.html"><i class="fas fa-user"></i> Biography</a></li>
+      <li><a href="../skills/index.html" class="active"><i class="fas fa-tools"></i> Skills</a></li>
+      <li><a href="../resume/index.html"><i class="fas fa-file-alt"></i> Resume</a></li>
+      <li><a href="../beats/index.html"><i class="fas fa-music"></i> My Beats</a></li>
+      <li><a href="../film/index.html"><i class="fas fa-video"></i> My Film</a></li>
+      <li><a href="../tv shows/index.html"><i class="fas fa-tv"></i> TV Shows</a></li>
+      <li class="active"><a href="../photo dump/index.html"><i class="fas fa-images"></i> Photo Gallery</a></li>
+      <li><a href="../bucket/index.html"><i class="fas fa-list-check"></i> Bucket List</a></li>
+      <li><a href="../Dream Places/index.html"><i class="fas fa-globe-americas"></i> Dream</a></li>
     </ul>
   </nav>
 
-  <h1>Welcome to my Photo Gallery</h1>
-  <div class="gallery">
-    <div class="gallery-item">
-      <img src="a.jpg" alt="Photo A" />
-      <div class="heart-overlay"></div>
+  <div class="content">
+    <div class="title-header">
+      <h1>Welcome to my Photo Gallery<br><span class="subtitle"><i class="fas fa-quote-left"></i> A collection of moments, memories, and snapshots of my world. <i class="fas fa-quote-right"></i></span></h1>
     </div>
-    <div class="gallery-item">
-      <img src="b.jpg" alt="Photo B" />
-      <div class="heart-overlay"></div>
-    </div>
-    <div class="gallery-item">
-      <img src="c.jpg" alt="Photo C" />
-      <div class="heart-overlay"></div>
-    </div>
-    <div class="gallery-item">
-      <img src="d.jpg" alt="Photo D" />
-      <div class="heart-overlay"></div>
-    </div>
-    <div class="gallery-item">
-      <img src="e.jpg" alt="Photo E" />
-      <div class="heart-overlay"></div>
-    </div>
-    <div class="gallery-item">
-      <img src="f.jpg" alt="Photo F" />
-      <div class="heart-overlay"></div>
-    </div>
-    <div class="gallery-item">
-      <img src="g.jpg" alt="Photo G" />
-      <div class="heart-overlay"></div>
-    </div>
-    <div class="gallery-item">
-      <img src="h.jpg" alt="Photo H" />
-      <div class="heart-overlay"></div>
-    </div>
-    <div class="gallery-item">
-      <img src="i.jpg" alt="Photo I" />
-      <div class="heart-overlay"></div>
-    </div>
-    <div class="gallery-item">
-      <img src="j.jpg" alt="Photo J" />
-      <div class="heart-overlay"></div>
-    </div>
-    <div class="gallery-item">
-      <img src="k.jpg" alt="Photo K" />
-      <div class="heart-overlay"></div>
-    </div>
-    <div class="gallery-item">
-      <img src="l.jpg" alt="Photo L" />
-      <div class="heart-overlay"></div>
-    </div>
-    <div class="gallery-item">
-      <img src="m.jpg" alt="Photo M" />
-      <div class="heart-overlay"></div>
-    </div>
-    <div class="gallery-item">
-      <img src="n.jpg" alt="Photo N" />
-      <div class="heart-overlay"></div>
-    </div>
-    <div class="gallery-item">
-      <img src="o.jpg" alt="Photo O" />
-      <div class="heart-overlay"></div>
-    </div>
-    <div class="gallery-item">
-      <img src="p.JPG" alt="Photo P" />
-      <div class="heart-overlay"></div>
-    </div>
-    <div class="gallery-item">
-      <img src="q.JPG" alt="Photo Q" />
-      <div class="heart-overlay"></div>
-    </div>
-    <div class="gallery-item">
-      <img src="r.jpg" alt="Photo R" />
-      <div class="heart-overlay"></div>
-    </div>
-    <div class="gallery-item">
-      <img src="s.jpg" alt="Photo S" />
-      <div class="heart-overlay"></div>
-    </div>
-    <div class="gallery-item">
-      <img src="t.jpg" alt="Photo T" />
-      <div class="heart-overlay"></div>
+
+    <div class="gallery">
+      <h3 class="gallery-section-title">Me & My Dream Dog</h3>
+      <div class="gallery-row">
+        <div class="gallery-item"><img src="a.jpg" alt="Photo A"><div class="heart-overlay"></div></div>
+        <div class="gallery-item"><img src="b.jpg" alt="Photo B"><div class="heart-overlay"></div></div>
+        <div class="gallery-item"><img src="c.jpg" alt="Photo C"><div class="heart-overlay"></div></div>
+        <div class="gallery-item"><img src="d.jpg" alt="Photo D"><div class="heart-overlay"></div></div>
+        <div class="gallery-item"><img src="e.jpg" alt="Photo E"><div class="heart-overlay"></div></div>
+      </div>
+
+      <h3 class="gallery-section-title">Mirror Selfies</h3>
+      <div class="gallery-row">
+        <div class="gallery-item"><img src="f.jpg" alt="Photo F"><div class="heart-overlay"></div></div>
+        <div class="gallery-item"><img src="g.jpg" alt="Photo G"><div class="heart-overlay"></div></div>
+        <div class="gallery-item"><img src="h.jpg" alt="Photo H"><div class="heart-overlay"></div></div>
+        <div class="gallery-item"><img src="i.jpg" alt="Photo I"><div class="heart-overlay"></div></div>
+        <div class="gallery-item"><img src="j.jpg" alt="Photo J"><div class="heart-overlay"></div></div>
+      </div>
+
+      <h3 class="gallery-section-title">Random Shots</h3>
+      <div class="gallery-row">
+        <div class="gallery-item"><img src="k.jpg" alt="Photo K"><div class="heart-overlay"></div></div>
+        <div class="gallery-item"><img src="l.jpg" alt="Photo L"><div class="heart-overlay"></div></div>
+        <div class="gallery-item"><img src="m.jpg" alt="Photo M"><div class="heart-overlay"></div></div>
+        <div class="gallery-item"><img src="n.jpg" alt="Photo N"><div class="heart-overlay"></div></div>
+        <div class="gallery-item"><img src="o.jpg" alt="Photo O"><div class="heart-overlay"></div></div>
+      </div>
+
+      <h3 class="gallery-section-title">Friends & Memories</h3>
+      <div class="gallery-row">
+        <div class="gallery-item"><img src="p.jpg" alt="Photo P"><div class="heart-overlay"></div></div>
+        <div class="gallery-item"><img src="q.jpg" alt="Photo Q"><div class="heart-overlay"></div></div>
+        <div class="gallery-item"><img src="r.jpg" alt="Photo R"><div class="heart-overlay"></div></div>
+        <div class="gallery-item"><img src="s.jpg" alt="Photo S"><div class="heart-overlay"></div></div>
+        <div class="gallery-item"><img src="t.jpg" alt="Photo T"><div class="heart-overlay"></div></div>
+      </div>
     </div>
   </div>
-
-  <!-- Back to Landing Page Button -->
-  <div class="landing-container">
-    <a href="casing-landing-page.html" class="back-to-landing">Back to Landing Page</a>
-  </div>
-
-  <script src="script.js"></script>
 </body>
 </html>
