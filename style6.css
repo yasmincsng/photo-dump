@@ -21,7 +21,7 @@
 /* Sidebar Navigation */
 .navbar {
     width: 220px;
-    background-color: var(--nav-bg);
+    background-color: #ff99cc;
     padding: 20px;
     position: fixed;
     height: 100%;
@@ -36,7 +36,7 @@
     text-align: center;
     color: white;
     margin-bottom: 30px;
-    border-bottom: 3px solid var(--primary-color);
+    border-bottom: 3px solid #ff66b2;
     padding-bottom: 5px;
     display: inline-block;
 }
@@ -52,7 +52,7 @@
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
-    background-color: var(--nav-item);
+    background-color: #ffb3c8;
     border-radius: 10px;
     text-align: center;
     margin-bottom: 10px;
@@ -61,14 +61,18 @@
 }
 
 .navbar a:hover {
-    background-color: var(--primary-color);
+    background-color: #ff66b2;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
 }
 
+.navbar a i {
+    margin-right: 8px;
+}
+
 .navbar .active a {
-    background-color: var(--primary-color);
-    color: var(--text-light);
+    background-color: #ff66b2;
+    color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
